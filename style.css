@@ -1,0 +1,134 @@
+body{
+  background-color: #FDF7FA;
+  font-family: 'Be Vietnam', sans-serif;
+  font-size: 20px;
+}
+
+#photo {
+  width: 300px;
+  height: 350px;
+  padding: 20px;
+  float: left;
+}
+
+.header{
+  background: #F9DB6D;
+}
+
+.header-menu{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header-menu-item{
+  display: inline-block;
+  text-align: center;
+}
+
+.header-menu-item a{
+  color: white;
+  display: block;
+  padding: 15px;
+}
+
+.header-menu-item a:hover{
+  background: #000;
+  opacity: 0.5;
+}
+
+.main{
+width: 1200px;
+margin-right: 80px;
+}
+
+#about-me{
+  color: #F9A630;
+  text-decoration: underline;
+}
+
+.all{
+  column-count: 2;
+  column-gap: 40px;
+  column-rule-style: double;
+}
+
+#skills{
+  color: #F9A630;
+  text-decoration: underline;
+}
+
+#future-project{
+  color: #F9A630;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+#contacs {
+  color: white;
+  font-family: 'Parisienne', cursive;
+  font-size: 35px;
+  text-align: center;
+  padding: 8px;
+}
+
+.pulsebox {
+  background-color: red;
+height: 60px;
+-webkit-animation-name: pulse;
+-webkit-animation-duration: 4s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes 'pulse' {
+0% {
+background-color: #ED6A5E;
+opacity: 1.0;
+}
+
+33% {
+background-color: #EE964B;
+opacity: 0.75;
+}
+
+67% {
+background-color: #FDCA40;
+opacity: 0.5;
+}
+
+100% {
+background-color: #F3C178;
+opacity: 1.0;
+}
+}
+
+ul#social li{
+  display: inline;
+  margin: 120px;
+  padding: 10px;
+}
+
+#social li{
+  margin-left: 20px;
+}
+
+#fb-insta {
+  margin-right: 5px;;
+}
+
+#social a:hover{
+  color: #ff8811;
+}
+
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+* html .clearfix             { zoom: 1; }
+*:first-child+html .clearfix { zoom: 1; }
